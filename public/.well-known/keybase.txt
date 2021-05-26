@@ -1,0 +1,82 @@
+==================================================================
+https://keybase.io/samuelcole
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://samuelcole.name
+  * I am samuelcole (https://keybase.io/samuelcole) on keybase.
+  * I have a public key with fingerprint 1DA1 E259 A6E3 C70B 190E  C7DB 8949 FB93 61B3 7BF1
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010164cbba914193cdc7469946c74044dcedf5340304866fa1cbce046444a51f581a0a",
+      "fingerprint": "1da1e259a6e3c70b190ec7db8949fb9361b37bf1",
+      "host": "keybase.io",
+      "key_id": "8949fb9361b37bf1",
+      "kid": "010164cbba914193cdc7469946c74044dcedf5340304866fa1cbce046444a51f581a0a",
+      "uid": "37ee7cb708a129d2dd12737b09a52d00",
+      "username": "samuelcole"
+    },
+    "merkle_root": {
+      "ctime": 1621993599,
+      "hash_meta": "f47007d6e2cb52e8ec9016f492e2baa78fbd425c306cf8abdee04e0ac3ef5b3e",
+      "seqno": 20043403
+    },
+    "revoke": {
+      "sig_ids": [
+        "8955fae8bf6f51282e425e945a72d1e9e005ea3768ca64c2e21d2767c3a47cc40f"
+      ]
+    },
+    "service": {
+      "hostname": "samuelcole.name",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1621993599,
+  "expire_in": 157680000,
+  "prev": "368a0b6798a586d50925f61cba3a10a73d29aab2df68f7948dd22a85b85fb11f",
+  "seqno": 55,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMK7AnicrVNdaBxVGN1YU2tAtFW0RLQwGrA1hnvv3Dt37mJK/MWG+mApgTau2/vz
+zWa6m53tzGbbGtOmGKpSn1RMTGooWqhKtQXFCILUNPiLQUhrwRQtlvQh4oOhNVoq
+8c6i+GAfnZfLfHO+c853vrlTNyzLNDUMHXv/nk1d6xcbvp58pi+z7d239vY7KjK7
+nWy/U4T6ASUDSTVfDI2TdRBG2KNaKSkwxcLVRnPqCUE9eyJKjQYTMJciF1Hf8wKJ
+tdKAqEcplQwHzMcSSafVCcJyAeJKHJarlhYbiYEwIT1wNUcKCwSaG+ULKgIlXA8r
+l6sA28aeKEk7rDklE2gLI1uzL/m6vavg/2fffXU6lwNwrTjyJSbCEGMw4VYRCcmI
+QSgFJhCXZS9YdCJ7+6CkoxI4A61OL8TFEuTjKKqm8epqmIKwR7AQLhPCjiiTnnwv
+VKXtDShHiBsPiFaMgA9a2EkCKggQJSX3A2UoYdpFng58qQxY14CkdiFgygXrJIEd
+5cjJEoRoOqC1EEMtKkKqnoQFm1ziZLttdowFEnwVeAHDxCdgeUFQJjkxGAQgxEC6
+3PO1tFFafWwI97h2JeVaUxQ4uYFULa6Fuk6eruo/EbTVK61OJY6qkS3Yjz3VaiXJ
+ptlUd1dS9E5Q+b958iosG/uv2I4axEkYlW1WFnmV2GBXJYwhH6YIZm0i+6Q6UEs3
+5vkSKY8LXzLfMwwJwgLPblm6EiPJXUOElIqYwPMDLqhvDCHSZ8pngcI4+DdHxqxP
+WUiHCgtlWe2L7VonTzx5baahKbO88Zr0EmWarr/pn6sl2q9bMjM7Tl4+yDM3tly8
+9bPVXwx/13ji3IOjd//QeWDtxbVfRSP5b/eveKH05cKz88fHX39bj73x6RPNpadz
+Hz/umIk7Vy5/8cKGyVLH4Uu/3DW2b/bM6ZNn9879mpvdc1/H6jEW5s63N35zaPbn
+P4/sKZ19rOXQ5qbWfYNzU1uPnpo/3jmeDGzsXP/TA6tGP7/lubY10yPrmu+dWPhg
+4Fz39PfD2Ynwx/OfHFj1e+bhd3Yuy2XKhy/t6p+dWbcwdubgy11PHXv0+cXNl0+1
+0Cuvfrjx/ofmCsXFLe1D0yuWNnQV2IVXNt1xev62qZHftg63PHL7ex1DV7Y3LHYv
+vfnSHzOjtebXtq9ZuW1/30cjgzcPHhmf+QuQuYqU
+=sWSO
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/samuelcole
+
+==================================================================
+
