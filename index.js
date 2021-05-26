@@ -32,8 +32,9 @@ app.use((req, res, next) => {
 
 app.use(express.static("public"));
 
-app.use((req, res) => {
-  res.send("Hello world");
+app.set("view engine", "ejs");
+app.get("/", (req, res) => {
+  res.render("index");
 });
 
 // Starting both http & https servers
