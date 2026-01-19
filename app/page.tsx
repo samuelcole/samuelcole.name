@@ -1,3 +1,4 @@
+import ExternalLink from "./components/ExternalLink";
 import ScrollIndicator from "./components/ScrollIndicator";
 import styles from "./page.module.css";
 
@@ -15,9 +16,7 @@ export default function Home() {
         <article>
           <time>2008–2010</time>
           <h2>
-            <a href="https://patch.com" target="_blank">
-              patch.com
-            </a>
+            <ExternalLink href="https://patch.com">patch.com</ExternalLink>
           </h2>
           <p>
             in the summer of '08, i moved to new york city, and started my first
@@ -29,9 +28,9 @@ export default function Home() {
         <article>
           <time>2010–2014</time>
           <h2>
-            <a href="https://www.kickstarter.com" target="_blank">
+            <ExternalLink href="https://www.kickstarter.com">
               kickstarter.com
-            </a>
+            </ExternalLink>
           </h2>
           <p>
             a few of my friends started building a new website that would let
@@ -44,12 +43,9 @@ export default function Home() {
         <article>
           <time>2014–2015</time>
           <h2>
-            <a
-              href="https://www.reddit.com/r/indie/comments/zi6u04/any_previous_jukely_users_out_there/"
-              target="_blank"
-            >
+            <ExternalLink href="https://www.reddit.com/r/indie/comments/zi6u04/any_previous_jukely_users_out_there/">
               jukely.com
-            </a>
+            </ExternalLink>
           </h2>
           <p>
             once kickstarter was established, i was looking for new ways to
@@ -63,9 +59,9 @@ export default function Home() {
         <article>
           <time>2015–2017</time>
           <h2>
-            <a href="https://www.emburse.com/products/abacus" target="_blank">
+            <ExternalLink href="https://www.emburse.com/products/abacus">
               abacus.com
-            </a>
+            </ExternalLink>
           </h2>
           <p>
             from my experience at kickstarter, i knew that once creative
@@ -77,9 +73,9 @@ export default function Home() {
         <article>
           <time>2017–2021</time>
           <h2>
-            <a href="https://www.actblue.com" target="_blank">
+            <ExternalLink href="https://www.actblue.com">
               actblue.com
-            </a>
+            </ExternalLink>
           </h2>
           <p>
             during the 2016 election, i got involved with all-virtual volunteer
@@ -93,9 +89,9 @@ export default function Home() {
         <article>
           <time>2021–</time>
           <h2>
-            <a href="https://www.foodhelpline.org" target="_blank">
+            <ExternalLink href="https://www.foodhelpline.org">
               lemontree
-            </a>
+            </ExternalLink>
           </h2>
           <p>
             once i had worked in political fundraising for a full election cycle
@@ -108,32 +104,27 @@ export default function Home() {
         <article>
           <ul className={styles.links}>
             <li>
-              <a href="https://github.com/samuelcole" target="_blank">
+              <ExternalLink href="https://github.com/samuelcole">
                 github
-              </a>
+              </ExternalLink>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/samuelcole" target="_blank">
+              <ExternalLink href="https://www.linkedin.com/in/samuelcole">
                 linkedin
-              </a>
+              </ExternalLink>
             </li>
             <li>
-              <a href="mailto:sam@samuelcole.name" target="_blank">
+              <ExternalLink href="mailto:sam@samuelcole.name">
                 email
-              </a>
+              </ExternalLink>
             </li>
             <li>
-              <a
-                href="https://www.goodreads.com/user/show/131140-samuel"
-                target="_blank"
-              >
+              <ExternalLink href="https://www.goodreads.com/user/show/131140-samuel">
                 goodreads
-              </a>
+              </ExternalLink>
             </li>
             <li>
-              <a href="/heart.png" target="_blank">
-                heart
-              </a>
+              <ExternalLink href="/heart.png">heart</ExternalLink>
             </li>
           </ul>
         </article>
