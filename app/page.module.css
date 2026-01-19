@@ -1,5 +1,4 @@
 .page {
-  --background: #f8f8de;
   --foreground: #fff;
 
   --text-primary: #000;
@@ -48,6 +47,9 @@
     min-height: 100vh;
     max-width: 800px;
     margin: 0 auto;
+    h2 {
+      color: red;
+    }
   }
   p {
     font-size: 1.5rem;
@@ -63,7 +65,6 @@
   a {
     text-decoration: underline;
     text-decoration-color: red;
-    color: var(--text-secondary);
     font-size: 1.4rem;
   }
 }
@@ -72,7 +73,7 @@
   font-size: 0.9rem;
   color: var(--text-secondary);
   padding: 1rem 2rem;
-  border-top: 1px solid red;
+  border-top: 1px solid rgba(255, 0, 0, 0.5);
   display: flex;
   justify-content: space-between;
 }

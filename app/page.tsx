@@ -1,5 +1,5 @@
-import styles from "./page.module.css";
 import ScrollIndicator from "./components/ScrollIndicator";
+import styles from "./page.module.css";
 
 export default function Home() {
   return (
@@ -99,7 +99,7 @@ export default function Home() {
           </h2>
           <p>
             once i had worked in political fundraising for a full election cycle
-            (and elected a president!), i wanted to go back to my roots of
+            (and helped elect a president!), i wanted to go back to my roots of
             building a non-profit tech company from day one. so i joined
             lemontree as the founding engineer, to build a platform that
             connects people to free food in their communities.
