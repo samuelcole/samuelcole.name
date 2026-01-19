@@ -11,13 +11,13 @@ const inconsolata = Inconsolata({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://samuelcole.name"),
+  metadataBase: new URL("https://www.samuelcole.name"),
   title: { default: "samuel cole", template: "%s | samuel cole" },
   description: "sam makes things. mostly websites.",
   openGraph: {
     title: "samuel cole",
     description: "sam makes things. mostly websites.",
-    url: "https://samuelcole.name",
+    url: "https://www.samuelcole.name",
     siteName: "samuel cole",
     locale: "en_US",
     type: "website",
