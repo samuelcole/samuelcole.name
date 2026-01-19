@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/next";
 import type { Metadata } from "next";
 import { Inconsolata } from "next/font/google";
 import "./globals.css";
@@ -34,7 +35,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inconsolata.variable}>{children}</body>
+      <body className={inconsolata.variable}>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
