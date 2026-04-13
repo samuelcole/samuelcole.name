@@ -1,0 +1,143 @@
+.page {
+  font-family: var(--font-inconsolata), monospace;
+  background-color: var(--background);
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.backLink {
+  color: var(--text-secondary);
+  text-decoration: underline;
+  text-decoration-color: red;
+  font-size: 0.9rem;
+}
+
+.header {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.header h1 {
+  font-weight: 300;
+  font-size: 2.5rem;
+}
+
+.header p.tagline {
+  font-size: 1.2rem;
+  color: var(--text-primary);
+  margin-top: 0.5rem;
+}
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.contact a {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.downloads {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.downloads a {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.section {
+  margin-top: 2.5rem;
+}
+
+.section h2 {
+  color: red;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid rgba(255, 0, 0, 0.3);
+  padding-bottom: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+.entry {
+  margin-bottom: 2rem;
+}
+
+.entry h3 {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.entry h3 a {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.entry time {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.entry .role {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin-top: 0.15rem;
+}
+
+.entry p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--text-primary);
+}
+
+.education {
+  font-size: 1rem;
+  color: var(--text-primary);
+  line-height: 1.6;
+}
+
+.education time {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.footer {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 0, 0, 0.5);
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  display: flex;
+  justify-content: space-between;
+}
+
+.page {
+  --text-primary: #000;
+  --text-secondary: #666;
+}
+
+@media (prefers-color-scheme: dark) {
+  .page {
+    --text-primary: #ededed;
+    --text-secondary: #bbb;
+  }
+}

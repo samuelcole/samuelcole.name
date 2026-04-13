@@ -1,0 +1,11 @@
+# Samuel Cole
+
+> Founding engineer and CTO. I make things from scratch.
+
+Personal website for Samuel Cole, a software engineer based in New York.
+
+## Resume
+
+- [Resume (markdown)](https://www.samuelcole.name/samuel-cole-resume.md)
+- [Resume (PDF)](https://www.samuelcole.name/samuel-cole-resume.pdf)
+- [Resume (HTML)](https://www.samuelcole.name/resume)

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import ExternalLink from "./components/ExternalLink";
 import ScrollIndicator from "./components/ScrollIndicator";
 import styles from "./page.module.css";
@@ -122,6 +123,11 @@ export default function Home() {
               <ExternalLink href="https://www.goodreads.com/user/show/131140-samuel">
                 goodreads
               </ExternalLink>
+            </li>
+            <li>
+              <Link href="/resume" className={styles.link}>
+                resume
+              </Link>
             </li>
             <li>
               <ExternalLink href="/heart.png">heart</ExternalLink>
