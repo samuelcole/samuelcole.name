@@ -2,43 +2,60 @@
 
 Founding engineer and CTO. I make things from scratch.
 
-**Email:** sam@samuelcole.name  
-**Phone:** (718) 974-3543  
-**GitHub:** github.com/samuelcole  
-**LinkedIn:** linkedin.com/in/samuelcole
-
 ---
 
 ## Experience
 
-### 6. Lemontree — CTO, 2021–present
+### 6. LEMONTREE
+**CTO** · 2021–present
 
-Founding engineer, now CTO, at a tech non-profit connecting people to free food. Designed and scaled an AI-assisted helpline to 20,000+ daily users across 11 regions with a peak team of two engineers. Built an intelligence pipeline combining field reports, agentic web research, and human sourcing to maintain real-time ground truth on food access. Shipped a client intelligence layer that carries full conversation context across every interaction.
+Transformed a local NYC helpline serving a handful of people a day into a food access system that helped over a million people across 11 regions in 2025. Peak team: two engineers. Managed an offshore contracting team, mentored a junior engineer, and partnered with the executive team on strategy, budget, and infrastructure spend.
 
-### 5. ActBlue — Senior Software Engineer, 2017–2021
+### 5. ACTBLUE
+**Senior Software Engineer** · 2017–2021
 
-Donor Experience team at the Democratic fundraising platform; cumulative contributions processed grew from ~$1B to over $8B during my four years. Rewrote the contribution form server from a Ruby Sinatra app to Node, refactoring client-side code along the way. Led the embeddable form used by the Biden presidential campaign, the NAACP, and Everytown.
+At the Democratic fundraising platform: rewrote the main donation form server (Ruby Sinatra → Node; ops later lifted it to AWS unchanged) and the company's PCI tokenizer. Solo, built a new embed from scratch at 100% test coverage. Contributions scaled from ~$1B to over $8B. Embed powered the Biden presidential campaign, the NAACP, Everytown, and more.
 
-### 4. Abacus — Full Stack Engineer, 2015–2017
+### 4. ABACUS
+**Full Stack Engineer** · 2015–2017
 
-One of 4–5 engineers building tools for enterprises to manage employee spending. Shipped receipt view, a redesigned search and faceting system, automated flight metadata, and trip-level grouping.
+One of 5 engineers building tools for enterprises to manage employee spending. Shipped receipt view, a redesigned search and faceting system, automated flight metadata, and trip-level grouping. Acquired by Emburse.
 
-### 3. Jukely — Lead Web Engineer, 2014–2015
+### 3. JUKELY
+**Lead Web Engineer** · 2014–2015
 
-Lead web engineer, employee #8 at a live-music subscription startup. Built the client-side app from scratch in React / webpack / Reflux — the surface users used to subscribe and discover events across three countries. Extended the Rails API where needed, including the first Stripe integration for paid subscriptions.
+Employee #8 at a live-music subscription startup. Built the client-side app from scratch in React / webpack / Reflux; contributed to the Rails API, including the company's first Stripe integration. When the CEO announced a Canada launch a week out with no code written, shipped full-stack currency and localization, on time.
 
-### 2. Kickstarter — Software Engineer, 2010–2014
+### 2. KICKSTARTER
+**Software Engineer** · 2010–2014
 
-Employee #12, one of the first two full-time engineers. Owned the client side as Kickstarter grew from $28M in annual pledges to crossing $1B in cumulative pledges (March 2014), with 22,000+ projects successfully funded in 2014 alone. Built site search, custom text editors, video players, the project-creation flow, creator tools for messages and backers, and admin review/publish/feature tooling.
+Employee #12, one of the first two full-time engineers; joined pre-launch. Owned the client side as Kickstarter scaled from $28M in annual pledges to crossing $1B cumulative (March 2014), with 22,000+ projects funded in 2014 alone. Built the front-end of the multistep project editor (still the basic shape of today's flow), site search, custom text editors, creator messaging/backer tools, admin tooling, and the first mainstream HTML5 video player.
 
-### 1. Patch — Front End Web Engineer, 2008–2010
+### 1. PATCH
+**Front End Web Engineer** · 2008–2010
 
-First front-end engineer. Designed the front-end architecture that scaled the product to hundreds of small-town sites across America. Built the CMS (media, authorship, layout, taxonomies) and a system for rendering highly customized maps.
+First front-end engineer; joined before the company had a name. Built the CMS and front-end architecture that scaled to hundreds of small-town news sites across America, plus a system for rendering highly customized neighborhood maps. Acquired by AOL.
 
 ---
 
 ## Education
 
-### 0. Rochester Institute of Technology — 2004–2008
-
+### 0. ROCHESTER INSTITUTE OF TECHNOLOGY · 2004–2008
 B.S., Multidisciplinary Studies: Computer Science & Literature; minor in Creative Writing
+
+---
+
+## Skills
+
+- **Languages & Frameworks:** TypeScript · Node.js · Next.js · React · Ruby on Rails
+- **Infra & Data:** Postgres · Prisma · Redis · AWS (RDS, ECS) · Vercel · GitHub Actions · ETL pipelines
+- **APIs & AI:** Mapbox · Twilio · Google Cloud · Vertex AI (Gemini) · AI SDK · RAG · LLM agents
+
+---
+
+## Contact Information
+
+- sam@samuelcole.name
+- (718) 974-3543
+- [github.com/samuelcole](https://github.com/samuelcole)
+- [linkedin.com/in/samuelcole](https://linkedin.com/in/samuelcole)

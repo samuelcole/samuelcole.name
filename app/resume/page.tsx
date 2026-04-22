@@ -60,13 +60,11 @@ export default function Resume() {
           <div className={styles.role}>CTO</div>
           <time>2021–present</time>
           <p>
-            Founding engineer, now CTO, at a tech non-profit connecting people
-            to free food. Designed and scaled an AI-assisted helpline to 20,000+
-            daily users across 11 regions with a peak team of two engineers.
-            Built an intelligence pipeline combining field reports, agentic web
-            research, and human sourcing to maintain real-time ground truth on
-            food access. Shipped a client intelligence layer that carries full
-            conversation context across every interaction.
+            Transformed a local NYC helpline serving a handful of people a day
+            into a food access system that helped over a million people across
+            11 regions in 2025. Peak team: two engineers. Managed an offshore
+            contracting team, mentored a junior engineer, and partnered with the
+            executive team on strategy, budget, and infrastructure spend.
           </p>
         </div>
 
@@ -77,12 +75,12 @@ export default function Resume() {
           <div className={styles.role}>Senior Software Engineer</div>
           <time>2017–2021</time>
           <p>
-            Donor Experience team at the Democratic fundraising platform;
-            cumulative contributions processed grew from ~$1B to over $8B during
-            my four years. Rewrote the contribution form server from a Ruby
-            Sinatra app to Node, refactoring client-side code along the way.
-            Led the embeddable form used by the Biden presidential campaign,
-            the NAACP, and Everytown.
+            At the Democratic fundraising platform: rewrote the main donation
+            form server (Ruby Sinatra → Node; ops later lifted it to AWS
+            unchanged) and the company's PCI tokenizer. Solo, built a new embed
+            from scratch at 100% test coverage. Contributions scaled from ~$1B
+            to over $8B. Embed powered the Biden presidential campaign, the
+            NAACP, Everytown, and more.
           </p>
         </div>
 
@@ -95,10 +93,10 @@ export default function Resume() {
           <div className={styles.role}>Full Stack Engineer</div>
           <time>2015–2017</time>
           <p>
-            One of 4–5 engineers building tools for enterprises to manage
-            employee spending. Shipped receipt view, a redesigned search and
-            faceting system, automated flight metadata, and trip-level
-            grouping.
+            One of 5 engineers building tools for enterprises to manage employee
+            spending. Shipped receipt view, a redesigned search and faceting
+            system, automated flight metadata, and trip-level grouping. Acquired
+            by Emburse.
           </p>
         </div>
 
@@ -111,11 +109,12 @@ export default function Resume() {
           <div className={styles.role}>Lead Web Engineer</div>
           <time>2014–2015</time>
           <p>
-            Lead web engineer, employee #8 at a live-music subscription
-            startup. Built the client-side app from scratch in React / webpack
-            / Reflux — the surface users used to subscribe and discover events
-            across three countries. Extended the Rails API where needed,
-            including the first Stripe integration for paid subscriptions.
+            Employee #8 at a live-music subscription startup. Built the
+            client-side app from scratch in React / webpack / Reflux;
+            contributed to the Rails API, including the company's first Stripe
+            integration. When the CEO announced a Canada launch a week out with
+            no code written, shipped full-stack currency and localization, on
+            time.
           </p>
         </div>
 
@@ -128,13 +127,13 @@ export default function Resume() {
           <div className={styles.role}>Software Engineer</div>
           <time>2010–2014</time>
           <p>
-            Employee #12, one of the first two full-time engineers. Owned the
-            client side as Kickstarter grew from $28M in annual pledges to
-            crossing $1B in cumulative pledges (March 2014), with 22,000+
-            projects successfully funded in 2014 alone. Built site search,
-            custom text editors, video players, the project-creation flow,
-            creator tools for messages and backers, and admin review/publish/
-            feature tooling.
+            Employee #12, one of the first two full-time engineers; joined
+            pre-launch. Owned the client side as Kickstarter scaled from $28M in
+            annual pledges to crossing $1B cumulative (March 2014), with 22,000+
+            projects funded in 2014 alone. Built the front-end of the multistep
+            project editor (still the basic shape of today's flow), site search,
+            custom text editors, creator messaging/backer tools, admin tooling,
+            and the first mainstream HTML5 video player.
           </p>
         </div>
 
@@ -145,10 +144,10 @@ export default function Resume() {
           <div className={styles.role}>Front End Web Engineer</div>
           <time>2008–2010</time>
           <p>
-            First front-end engineer. Designed the front-end architecture that
-            scaled the product to hundreds of small-town sites across America.
-            Built the CMS (media, authorship, layout, taxonomies) and a system
-            for rendering highly customized maps.
+            First front-end engineer; joined before the company had a name.
+            Built the CMS and front-end architecture that scaled to hundreds of
+            small-town news sites across America, plus a system for rendering
+            highly customized neighborhood maps. Acquired by AOL.
           </p>
         </div>
       </section>
@@ -163,6 +162,24 @@ export default function Resume() {
           B.S., Multidisciplinary Studies: Computer Science & Literature; minor
           in Creative Writing
         </div>
+      </section>
+
+      <section className={styles.section}>
+        <h2>Skills</h2>
+        <ul className={styles.skills}>
+          <li>
+            <strong>Languages & Frameworks:</strong> TypeScript · Node.js ·
+            Next.js · React · Ruby on Rails
+          </li>
+          <li>
+            <strong>Infra & Data:</strong> Postgres · Prisma · Redis · AWS (RDS,
+            ECS) · Vercel · GitHub Actions · ETL pipelines
+          </li>
+          <li>
+            <strong>APIs & AI:</strong> Mapbox · Twilio · Google Cloud · Vertex
+            AI (Gemini) · AI SDK · RAG · LLM agents
+          </li>
+        </ul>
       </section>
 
       <footer className={styles.footer}>

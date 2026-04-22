@@ -120,6 +120,19 @@
   color: var(--text-secondary);
 }
 
+.skills {
+  font-size: 1rem;
+  color: var(--text-primary);
+  line-height: 1.6;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skills li {
+  margin-bottom: 0.5rem;
+}
+
 .footer {
   margin-top: 3rem;
   padding-top: 1rem;
