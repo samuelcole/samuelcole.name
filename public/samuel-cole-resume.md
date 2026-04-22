@@ -9,7 +9,7 @@ Founding engineer and CTO. I make things from scratch.
 ### 6. LEMONTREE
 **CTO** · 2021–present
 
-Transformed a local NYC helpline serving a handful of people a day into a food access system that helped over a million people across 11 regions in 2025. Peak team: two engineers. Managed an offshore contracting team, mentored a junior engineer, and partnered with the executive team on strategy, budget, and infrastructure spend.
+Transformed a local NYC helpline serving a handful of people a day into a food access system that helped over a million people across 11 regions in 2025. Peak team: two engineers. Managed an offshore contracting team, mentored an engineer, and owned technical strategy, budget, and infrastructure spend.
 
 ### 5. ACTBLUE
 **Senior Software Engineer** · 2017–2021
@@ -53,7 +53,7 @@ B.S., Multidisciplinary Studies: Computer Science & Literature; minor in Creativ
 
 ---
 
-## Contact Information
+## Contact
 
 - sam@samuelcole.name
 - (718) 974-3543
