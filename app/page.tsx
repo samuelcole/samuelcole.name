@@ -98,8 +98,10 @@ export default function Home() {
             once i had worked in political fundraising for a full election cycle
             (and helped elect a president!), i wanted to go back to my roots of
             building a non-profit tech company from day one. so i joined
-            lemontree as the founding engineer, to build a platform that
-            connects people to free food in their communities.
+            lemontree as the founding engineer, and built a platform that
+            connects people to free food in their communities. what started as a
+            small nyc helpline has grown into a multi-state movement, and i've
+            grown into the cto role along with it.
           </p>
         </article>
         <article>
