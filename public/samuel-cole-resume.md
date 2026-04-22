@@ -53,7 +53,7 @@ B.S., Multidisciplinary Studies: Computer Science & Literature; minor in Creativ
 
 ---
 
-## Contact
+## Contact Information
 
 - sam@samuelcole.name
 - (718) 974-3543
