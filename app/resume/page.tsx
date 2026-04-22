@@ -34,7 +34,9 @@ export default function Resume() {
               sam@samuelcole.name
             </ExternalLink>
           </span>
-          <span>(718) 974-3543</span>
+          <span>
+            <ExternalLink href="tel:+17189743543">(718) 974-3543</ExternalLink>
+          </span>
           <span>
             <ExternalLink href="https://github.com/samuelcole">
               github.com/samuelcole
