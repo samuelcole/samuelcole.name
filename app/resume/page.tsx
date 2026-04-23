@@ -7,11 +7,24 @@ export const metadata: Metadata = {
   title: "resume",
   description:
     "Samuel Cole — founding engineer and CTO. Resume and work history.",
+  alternates: { canonical: "/resume" },
+};
+
+const profileJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  url: "https://www.samuelcole.name/resume",
+  mainEntity: { "@id": "https://www.samuelcole.name/#person" },
 };
 
 export default function Resume() {
   return (
     <div className={styles.page}>
+      <script
+        type="application/ld+json"
+        // biome-ignore lint/security/noDangerouslySetInnerHtml: JSON-LD requires raw script content
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(profileJsonLd) }}
+      />
       <nav className={styles.nav}>
         <Link href="/" className={styles.backLink}>
           ← samuelcole.name

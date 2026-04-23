@@ -13,6 +13,7 @@ export default function Link({ href, children }: LinkProps) {
       href={href}
       onClick={() => track("External Link Clicked", { href })}
       target="_blank"
+      rel="noopener noreferrer"
     >
       {children}
     </a>

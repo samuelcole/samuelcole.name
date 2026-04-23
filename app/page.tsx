@@ -3,9 +3,36 @@ import ExternalLink from "./components/ExternalLink";
 import ScrollIndicator from "./components/ScrollIndicator";
 import styles from "./page.module.css";
 
+const personJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://www.samuelcole.name/#person",
+  name: "Samuel Cole",
+  alternateName: "Sam Cole",
+  url: "https://www.samuelcole.name",
+  jobTitle: "Founding Engineer & CTO",
+  description: "Founding engineer and CTO. Makes things, mostly websites.",
+  email: "mailto:sam@samuelcole.name",
+  image: "https://www.samuelcole.name/2601-samuel-cole-1.jpg",
+  sameAs: [
+    "https://github.com/samuelcole",
+    "https://www.linkedin.com/in/samuelcole",
+    "https://www.goodreads.com/user/show/131140-samuel",
+  ],
+  alumniOf: {
+    "@type": "CollegeOrUniversity",
+    name: "Rochester Institute of Technology",
+  },
+};
+
 export default function Home() {
   return (
     <div className={styles.page}>
+      <script
+        type="application/ld+json"
+        // biome-ignore lint/security/noDangerouslySetInnerHtml: JSON-LD requires raw script content
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
+      />
       <header className={styles.header}>
         <h1>samuel cole</h1>
       </header>

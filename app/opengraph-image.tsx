@@ -1,8 +1,6 @@
 import { ImageResponse } from "next/og";
 
-export const runtime = "edge";
-
-export const alt = "samuel cole";
+export const alt = "Samuel Cole — founding engineer & CTO";
 export const size = {
   width: 1200,
   height: 630,

@@ -12,11 +12,17 @@ const inconsolata = Inconsolata({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.samuelcole.name"),
-  title: { default: "samuel cole", template: "%s | samuel cole" },
-  description: "sam makes things. mostly websites.",
+  title: {
+    default: "Samuel Cole — Founding Engineer & CTO",
+    template: "%s | samuel cole",
+  },
+  description:
+    "Samuel Cole — founding engineer and CTO at Lemontree (foodhelpline.org). Twenty years shipping at startups and non-profits, including ActBlue, Kickstarter, and Patch.",
+  alternates: { canonical: "/" },
   openGraph: {
     title: "samuel cole",
-    description: "sam makes things. mostly websites.",
+    description:
+      "Founding engineer and CTO. I make things from scratch — mostly websites.",
     url: "https://www.samuelcole.name",
     siteName: "samuel cole",
     locale: "en_US",
@@ -26,14 +32,15 @@ export const metadata: Metadata = {
         url: "/opengraph-image",
         width: 1200,
         height: 630,
-        alt: "samuel cole",
+        alt: "Samuel Cole — founding engineer & CTO",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
     title: "samuel cole",
-    description: "sam makes things. mostly websites.",
+    description:
+      "Founding engineer and CTO. I make things from scratch — mostly websites.",
     images: ["/opengraph-image"],
   },
 };
