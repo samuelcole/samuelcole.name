@@ -27,7 +27,7 @@ export const personJsonLd = {
   knowsAbout: [
     "Founding engineering",
     "Web platform engineering",
-    "Non-profit fundraising technology",
+    "Fundraising technology",
     "Food access technology",
     "TypeScript",
     "Next.js",
