@@ -2,28 +2,7 @@ import Link from "next/link";
 import ExternalLink from "./components/ExternalLink";
 import ScrollIndicator from "./components/ScrollIndicator";
 import styles from "./page.module.css";
-
-const personJsonLd = {
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "@id": "https://www.samuelcole.name/#person",
-  name: "Samuel Cole",
-  alternateName: "Sam Cole",
-  url: "https://www.samuelcole.name",
-  jobTitle: "Founding Engineer & CTO",
-  description: "Founding engineer and CTO. Makes things, mostly websites.",
-  email: "mailto:sam@samuelcole.name",
-  image: "https://www.samuelcole.name/2601-samuel-cole-1.jpg",
-  sameAs: [
-    "https://github.com/samuelcole",
-    "https://www.linkedin.com/in/samuelcole",
-    "https://www.goodreads.com/user/show/131140-samuel",
-  ],
-  alumniOf: {
-    "@type": "CollegeOrUniversity",
-    name: "Rochester Institute of Technology",
-  },
-};
+import { personJsonLd } from "./personJsonLd";
 
 export default function Home() {
   return (

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import ExternalLink from "../components/ExternalLink";
+import { personJsonLd } from "../personJsonLd";
 import styles from "./resume.module.css";
 
 export const metadata: Metadata = {
@@ -10,11 +11,17 @@ export const metadata: Metadata = {
   alternates: { canonical: "/resume" },
 };
 
+const { "@context": _context, ...personNode } = personJsonLd;
 const profileJsonLd = {
   "@context": "https://schema.org",
-  "@type": "ProfilePage",
-  url: "https://www.samuelcole.name/resume",
-  mainEntity: { "@id": "https://www.samuelcole.name/#person" },
+  "@graph": [
+    personNode,
+    {
+      "@type": "ProfilePage",
+      url: "https://www.samuelcole.name/resume",
+      mainEntity: { "@id": "https://www.samuelcole.name/#person" },
+    },
+  ],
 };
 
 export default function Resume() {
