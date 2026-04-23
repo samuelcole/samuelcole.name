@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     template: "%s | samuel cole",
   },
   description:
-    "Samuel Cole — founding engineer and CTO at Lemontree (foodhelpline.org). Twenty years shipping at startups and non-profits, including ActBlue, Kickstarter, and Patch.",
+    "Samuel Cole (Sam), founding engineer and CTO in NYC. Twenty years building at Lemontree, ActBlue, Kickstarter, and Patch.",
   alternates: {
     canonical: "/",
     types: { "text/plain": "/llms.txt" },
