@@ -18,7 +18,10 @@ export const metadata: Metadata = {
   },
   description:
     "Samuel Cole — founding engineer and CTO at Lemontree (foodhelpline.org). Twenty years shipping at startups and non-profits, including ActBlue, Kickstarter, and Patch.",
-  alternates: { canonical: "/" },
+  alternates: {
+    canonical: "/",
+    types: { "text/plain": "/llms.txt" },
+  },
   openGraph: {
     title: "samuel cole",
     description:

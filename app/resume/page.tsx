@@ -8,7 +8,10 @@ export const metadata: Metadata = {
   title: "resume",
   description:
     "Samuel Cole — founding engineer and CTO. Resume and work history.",
-  alternates: { canonical: "/resume" },
+  alternates: {
+    canonical: "/resume",
+    types: { "text/markdown": "/samuel-cole-resume.md" },
+  },
 };
 
 const { "@context": _context, ...personNode } = personJsonLd;
