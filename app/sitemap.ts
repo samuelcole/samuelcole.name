@@ -11,5 +11,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "yearly",
       priority: 0.8,
     },
+    {
+      url: `${base}/samuel-cole-resume.pdf`,
+      lastModified,
+      changeFrequency: "yearly",
+      priority: 0.5,
+    },
   ];
 }
