@@ -65,8 +65,8 @@ export default function Resume() {
             Transformed a local NYC helpline serving a handful of people a day
             into a food access system that helped over a million people across
             11 regions in 2025 with a small team. Managed an offshore
-            contracting team, mentored an engineer, and owned technical strategy,
-            budget, and infrastructure spend.
+            contracting team, mentored an engineer, and owned technical and
+            product strategy, budget, and infrastructure spend.
           </p>
         </div>
 
