@@ -17,6 +17,18 @@ const nextConfig: NextConfig = {
       ],
     },
   ],
+  redirects: async () => [
+    {
+      source: "/resume/SamuelCole.pdf",
+      destination: "/samuel-cole-resume.pdf",
+      permanent: true,
+    },
+    {
+      source: "/resume/SamuelCole-bw.pdf",
+      destination: "/samuel-cole-resume-bw.pdf",
+      permanent: true,
+    },
+  ],
 };
 
 export default nextConfig;
