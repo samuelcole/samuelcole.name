@@ -1,11 +1,21 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# samuelcole.name
 
-## Getting Started
+Source for [samuelcole.name](https://www.samuelcole.name) — my personal site and resume.
 
-First, run the development server:
+Built with Next.js (App Router) and React 19. Linted/formatted with Biome. Deployed on Vercel.
+
+## Develop
 
 ```bash
-pnpm dev
+pnpm install
+pnpm dev      # http://localhost:3000
+pnpm build
+pnpm lint     # biome check
+pnpm format   # biome format --write
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Layout
+
+- `app/` — pages and components (App Router)
+- `app/resume/` — `/resume` page
+- `public/samuel-cole-resume.{pdf,md}` — downloadable resume (color PDF, b&w PDF, markdown)
