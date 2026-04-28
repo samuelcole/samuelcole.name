@@ -9,7 +9,7 @@ Founding engineer and CTO. I make things from scratch.
 ### 6. LEMONTREE
 **CTO** · 2021–present
 
-Transformed a local NYC helpline serving a handful of people a day into a food access system that helped over a million people across 11 regions in 2025 with a small team. Managed an offshore contracting team, mentored an engineer, and owned technical and product strategy, budget, and infrastructure spend.
+Transformed a NYC helpline serving a handful of people a day into a food access system helping over a million across 11 regions in 2025. Built an LLM pipeline (Gemini Flash) that 2.5x'd call volume for a 3-5 person team across Pakistan, Philippines, Kenya. Mentored an engineer; owned strategy, budget, and infrastructure.
 
 ### 5. ACTBLUE
 **Senior Software Engineer** · 2017–2021
@@ -49,7 +49,7 @@ B.S., Multidisciplinary Studies: Computer Science & Literature; minor in Creativ
 
 - **Languages & Frameworks:** TypeScript · Node.js · Next.js · React · Ruby on Rails
 - **Infra & Data:** Postgres · Prisma · Redis · AWS (RDS, ECS) · Vercel · GitHub Actions · ETL pipelines
-- **APIs & AI:** Mapbox · Twilio · Google Cloud · Vertex AI (Gemini) · AI SDK · RAG · LLM agents
+- **APIs & AI:** Mapbox · Twilio · Google Cloud · Vertex AI (Gemini) · AI SDK · LLM agents
 
 ---
 
