@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "biome check",
     "format": "biome format --write",
+    "resume": "./scripts/resume.sh",
     "resume:bw": "gs -sDEVICE=pdfwrite -sColorConversionStrategy=Gray -dProcessColorModel=/DeviceGray -dCompatibilityLevel=1.4 -dNOPAUSE -dBATCH -sOutputFile=public/samuel-cole-resume-bw.pdf public/samuel-cole-resume.pdf"
   },
   "dependencies": {

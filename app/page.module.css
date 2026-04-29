@@ -6,7 +6,7 @@
 
   display: flex;
   min-height: 100vh;
-  font-family: var(--font-inconsolata), monospace;
+  font-family: var(--font-jetbrains-mono), monospace;
   background-color: var(--background);
   flex-direction: column;
   gap: 2rem;

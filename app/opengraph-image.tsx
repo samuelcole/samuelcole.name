@@ -44,7 +44,7 @@ export default async function Image() {
           fontSize: 80,
           fontWeight: 300,
           color: "#000",
-          fontFamily: "Inconsolata, monospace",
+          fontFamily: "JetBrains Mono, monospace",
         }}
       >
         samuel cole
@@ -54,8 +54,8 @@ export default async function Image() {
       ...size,
       fonts: [
         {
-          name: "Inconsolata",
-          data: await loadGoogleFont("Inconsolata", "samuel cole"),
+          name: "JetBrains Mono",
+          data: await loadGoogleFont("JetBrains+Mono:wght@300", "samuel cole"),
           style: "normal",
           weight: 300,
         },
