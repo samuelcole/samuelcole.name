@@ -496,8 +496,7 @@
   }
 
   .meta {
-    font-size: 7.5px;
-    margin-bottom: 8px;
+    display: none;
   }
   .masthead {
     padding-bottom: 7px;
