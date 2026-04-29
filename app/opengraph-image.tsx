@@ -28,7 +28,7 @@ export default async function Image() {
   return new ImageResponse(
     <div
       style={{
-        background: "#f7f7de",
+        background: "#f8f8de",
         width: "100%",
         height: "100%",
         display: "flex",
@@ -38,12 +38,12 @@ export default async function Image() {
         gap: "40px",
       }}
     >
-      <div style={{ fontSize: 100, color: "red" }}>♥</div>
+      <div style={{ fontSize: 100, color: "#d62828" }}>♥</div>
       <div
         style={{
           fontSize: 80,
           fontWeight: 300,
-          color: "#000",
+          color: "#131210",
           fontFamily: "JetBrains Mono, monospace",
         }}
       >

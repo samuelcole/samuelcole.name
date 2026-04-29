@@ -1,9 +1,4 @@
 .page {
-  --foreground: #fff;
-
-  --text-primary: #000;
-  --text-secondary: #666;
-
   display: flex;
   min-height: 100vh;
   font-family: var(--font-jetbrains-mono), monospace;
@@ -24,7 +19,7 @@
   bottom: 1rem;
   right: 2rem;
   font-size: 0.9rem;
-  color: var(--text-secondary);
+  color: var(--ink-3);
   background-color: var(--background);
   border-radius: 5px;
 }
@@ -44,12 +39,12 @@
     max-width: 800px;
     margin: 0 auto;
     h2 {
-      color: red;
+      color: var(--red);
     }
   }
   p {
     font-size: 1.5rem;
-    color: var(--text-primary);
+    color: var(--ink);
   }
 }
 
@@ -60,29 +55,22 @@
   list-style-type: none;
   a {
     text-decoration: underline;
-    text-decoration-color: red;
+    text-decoration-color: var(--red);
     font-size: 1.4rem;
   }
 }
 
 .link {
   text-decoration: underline;
-  text-decoration-color: red;
+  text-decoration-color: var(--red);
   font-size: 1.4rem;
 }
 
 .footer {
   font-size: 0.9rem;
-  color: var(--text-secondary);
+  color: var(--ink-3);
   padding: 1rem 2rem;
-  border-top: 1px solid rgba(255, 0, 0, 0.5);
+  border-top: 1px solid var(--rule);
   display: flex;
   justify-content: space-between;
-}
-
-@media (prefers-color-scheme: dark) {
-  .page {
-    --text-primary: #ededed;
-    --text-secondary: #bbb;
-  }
 }
