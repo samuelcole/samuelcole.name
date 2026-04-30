@@ -33,18 +33,25 @@
   text-decoration: none;
 }
 
+/* Frame wraps tabs + page card */
+.frame {
+  width: 100%;
+  max-width: 880px;
+  display: flex;
+  flex-direction: column;
+  animation: rise 0.55s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
 /* Page card */
 .page {
   width: 100%;
-  max-width: 880px;
   background: var(--paper);
-  padding: 60px 68px 48px;
+  padding: 48px 68px;
   position: relative;
   box-shadow:
     0 1px 0 rgba(255, 255, 255, 0.6) inset,
     0 36px 90px -40px rgba(80, 40, 10, 0.28),
     0 10px 28px -18px rgba(80, 40, 10, 0.18);
-  animation: rise 0.55s cubic-bezier(0.2, 0.7, 0.2, 1) both;
 }
 
 @keyframes rise {
@@ -58,45 +65,49 @@
   }
 }
 
-/* Metadata bar */
+/* Tabs strip — sits above the page card */
 .meta {
   display: flex;
-  flex-direction: column;
-  gap: 2px;
   font-size: 11px;
-  font-weight: 400;
   line-height: 1.3;
   color: var(--ink-3);
-  margin-bottom: 32px;
   letter-spacing: 0.02em;
-}
-.metaRow {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 12px;
-}
-.metaInfo {
-  color: var(--ink-3);
+  padding-left: 24px;
 }
 .metaFiles {
   display: flex;
-  gap: 4px 14px;
+  gap: 0 2px;
   flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 100%;
 }
 .tag {
-  color: var(--ink-2);
+  color: var(--ink-3);
+  padding: 7px 14px 9px;
+  background: var(--rule-soft);
+  border-radius: 5px 5px 0 0;
+  font-size: 11px;
+  letter-spacing: 0.02em;
+  margin-bottom: -1px;
+  transition:
+    color 0.15s,
+    background 0.15s;
 }
-.prompt {
-  color: var(--red);
+.tag:hover {
+  color: var(--red-deep);
+}
+.tagActive {
+  color: var(--ink);
+  background: var(--paper);
   font-weight: 600;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.5),
+    0 -10px 20px -10px rgba(80, 40, 10, 0.22);
+  cursor: default;
   user-select: none;
 }
-.meta a {
-  transition: color 0.15s;
-}
-.meta a:hover {
-  color: var(--red-deep);
+.tagActive:hover {
+  color: var(--ink);
 }
 
 /* Masthead */
@@ -383,6 +394,14 @@
   .desc strong {
     background: rgba(255, 122, 104, 0.12);
   }
+  .tag {
+    background: rgba(0, 0, 0, 0.28);
+    color: rgba(245, 237, 203, 0.4);
+  }
+  .tagActive {
+    background: var(--paper);
+    color: var(--ink);
+  }
 }
 
 /* Responsive */
@@ -456,11 +475,13 @@
     --red: #b91c1c;
     --red-deep: #7f1010;
   }
+  .frame {
+    max-width: none;
+    animation: none;
+  }
   .page {
     box-shadow: none;
-    max-width: none;
     padding: 0;
-    animation: none;
   }
   .viewport a {
     color: inherit;
