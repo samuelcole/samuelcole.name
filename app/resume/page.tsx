@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import ExternalLink from "../components/ExternalLink";
 import { personJsonLd } from "../personJsonLd";
 import styles from "./resume.module.css";
@@ -65,7 +66,9 @@ export default function Resume() {
         </div>
         <main className={styles.page}>
           <header className={styles.masthead}>
-            <h1 className={styles.name}>Samuel Cole</h1>
+            <h1 className={styles.name}>
+              <Link href="/">Samuel Cole</Link>
+            </h1>
             <span className={styles.heart} aria-hidden="true">
               ♥
             </span>
