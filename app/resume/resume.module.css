@@ -448,6 +448,21 @@
   }
   .meta {
     font-size: 10px;
+    padding-left: 16px;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .meta::-webkit-scrollbar {
+    display: none;
+  }
+  .metaFiles {
+    flex-wrap: nowrap;
+    width: max-content;
+  }
+  .tag {
+    padding: 6px 10px 8px;
+    white-space: nowrap;
+    flex: none;
   }
 }
 
