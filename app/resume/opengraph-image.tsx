@@ -88,8 +88,9 @@ export default async function Image() {
           background: PAPER,
           padding: "64px 72px",
           flex: 1,
+          borderRadius: "6px 6px 16px 16px",
           boxShadow:
-            "0 1px 0 rgba(255,255,255,0.6) inset, 0 36px 90px -30px rgba(80, 40, 10, 0.35), 0 12px 28px -16px rgba(80, 40, 10, 0.22)",
+            "0 36px 90px -30px rgba(80, 40, 10, 0.35), 0 12px 28px -16px rgba(80, 40, 10, 0.22)",
         }}
       >
         <div style={{ display: "flex", alignItems: "center", gap: 26 }}>
