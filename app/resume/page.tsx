@@ -4,12 +4,32 @@ import ExternalLink from "../components/ExternalLink";
 import { personJsonLd } from "../personJsonLd";
 import styles from "./resume.module.css";
 
+const RESUME_TITLE = "Samuel Cole — Resume";
+const RESUME_DESCRIPTION =
+  "Founding engineer and CTO. Twenty years building at Lemontree, ActBlue, Kickstarter, and Patch.";
+
 export const metadata: Metadata = {
-  title: { absolute: "Samuel Cole — Resume" },
-  description: "Founding engineer and CTO. I make things from scratch.",
+  title: { absolute: RESUME_TITLE },
+  description: RESUME_DESCRIPTION,
   alternates: {
     canonical: "/resume",
     types: { "text/markdown": "/samuel-cole-resume.md" },
+  },
+  openGraph: {
+    title: RESUME_TITLE,
+    description: RESUME_DESCRIPTION,
+    url: "https://www.samuelcole.name/resume",
+    siteName: "samuel cole",
+    locale: "en_US",
+    type: "profile",
+    firstName: "Samuel",
+    lastName: "Cole",
+    username: "samuelcole",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: RESUME_TITLE,
+    description: RESUME_DESCRIPTION,
   },
 };
 
